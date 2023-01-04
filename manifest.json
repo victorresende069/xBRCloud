@@ -1,10 +1,16 @@
 {
     "manifest_version": 3,
     "name": "xBRCloud",
-    "description": "Sytem Internet Cloud Project",
+    "description": "System Internet Cloud Project",
     "version": "1.0",
+    "icons": {
+      "16": "src/icon/cloud.png",
+      "32": "src/icon/cloud.png",
+      "48": "src/icon/cloud.png",
+      "128": "src/icon/cloud.png"
+    },
     "action": {
-      "default_popup": "hello.html",
-      "default_icon": ""
+      "default_popup": "src/html/popup.html",
+      "default_icon": "src/icon/cloud.png"
     }
   }
